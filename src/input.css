@@ -6,6 +6,10 @@ body{
     font-family:'inter',san-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar-fixed{
   @apply fixed z-[9999] bg-white bg-opacity-80;
   backdrop-filter: blur(5px);
@@ -27,3 +31,4 @@ body{
 .hamburger-active > span:nth-child(2){
     @apply scale-0;
 }
+
